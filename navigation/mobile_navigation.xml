@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_family">
+
+    <fragment
+        android:id="@+id/navigation_have"
+        android:name="com.example.ckmj_se_project.ui.Have.HaveFragment"
+        android:label="@string/title_have"
+        tools:layout="@layout/fragment_have" />
+
+    <fragment
+        android:id="@+id/navigation_input"
+        android:name="com.example.ckmj_se_project.ui.Input.InputFragment"
+        android:label="@string/title_input"
+        tools:layout="@layout/fragment_input" />
+
+    <fragment
+        android:id="@+id/navigation_need"
+        android:name="com.example.ckmj_se_project.ui.Need.NeedFragment"
+        android:label="@string/title_need"
+        tools:layout="@layout/fragment_need" />
+
+    <fragment
+        android:id="@+id/navigation_family"
+        android:name="com.example.ckmj_se_project.ui.Family.FamilyFragment"
+        android:label="@string/title_family"
+        tools:layout="@layout/fragment_family" />
+
+</navigation>
